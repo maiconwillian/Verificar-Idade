@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="menu">
+    <header>
+            <h1>Verificar Idade</h1>
+            <hr>
+    </header>
+       
+        <p>Ano de Nascimento: </p>
+        <input type="number" name="txtano" id="txtano">
+        <p id="ex">Ex:1989</p>
+        <p>
+            <hr>
+            Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <button type="button" onclick="verificar()">Realizar Verificação</button>
+            
+         
+        </p>
+        <div id='res'>
+            Preencha os dados acima para ver o resultado!
+        </div>
+        
+        <img src="young boy.png" alt="teste" id="foto" class="foto">
+      
+        
+        
+        <footer>
+            &copy; Maicon Willian
+        </footer>
+
+         </div>
+    
+    
+<script src="script.js"></script>
+    
+</body>
+</html>
